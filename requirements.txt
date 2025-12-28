@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+joblib
+
+pandas
+numpy
+
+scikit-learn==1.7.1    
+pydantic==1.10.13       # Compatible HF + FastAPI stable
+python-multipart
