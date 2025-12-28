@@ -46,38 +46,6 @@ Projet réalisé dans le cadre du **bootcamp Data FullStack – Jedha** (bloc De
 
 ---
 
-# Arborescence du projet
-
-```
-getaround_project/
-│
-├─ data/
-│   ├─ raw/
-│   │   ├─ get_around_delay_analysis.xlsx
-│   │   └─ get_around_pricing_project.csv
-│   └─ processed/
-│       └─ buffer_scenarios.csv
-│
-├─ notebooks/
-│   ├─ 01_delay_analysis_eda.ipynb
-│   └─ 02_pricing_ml_model.ipynb
-│
-├─ app/
-│   ├─ api/
-│   │   ├─ main.py       # API FastAPI avec /predict
-│   │   └─ model.joblib  # Pipeline ML sauvegardé
-│   └─ dashboard/
-│       └─ app_streamlit.py
-│
-├─ docs/
-│   └─ api_documentation.md
-│
-├─ requirements.txt
-└─ README.md
-```
-
----
-
 # 1 — Delay Analysis (Résumé)
 
 ## Insights clés (issus du notebook n°1)
